@@ -130,7 +130,7 @@ if __name__ == '__main__':
             'adcode',
         ])
         note_osm_stop_position_id = set()
-        note_osm_station_id = set()
+        note_osm_stop_area_id = set()
         note_osm_entrance_id = set()
         for route_id in tqdm(ROUTE_ID2OSM_ROUTE_ID, desc='Processing routes'):
             for direction_id, osm_route_id in enumerate(ROUTE_ID2OSM_ROUTE_ID[route_id]):
@@ -190,7 +190,7 @@ if __name__ == '__main__':
                                 '',
                                 '',
                                 0,
-                                osm_station_id,
+                                osm_stop_area_id,
                                 '',
                                 '',
                                 '',
@@ -198,7 +198,7 @@ if __name__ == '__main__':
                                 ''
                             ])
                             note_osm_stop_position_id.add(osm_stop_position_id)
-                        if osm_station_id and osm_station_id not in note_osm_station_id:
+                        if osm_stop_area_id and osm_stop_area_id not in note_osm_stop_area_id:
                             if 'lat' in osm_station_info and 'lon' in osm_station_info:
                                 center_lon, center_lat = osm_station_info['lon'], osm_station_info['lat']
                             elif 'nodes' in osm_station_info:
@@ -212,7 +212,7 @@ if __name__ == '__main__':
                             else:
                                 center_lon, center_lat = None, None
                             writer_stops.writerow([
-                                osm_station_id, 
+                                osm_stop_area_id, 
                                 tool.device_location2station_id(ruubypay_device_location),
                                 osm_station_name,
                                 osm_station_name,
@@ -229,7 +229,7 @@ if __name__ == '__main__':
                                 '',
                                 ''
                             ])
-                            note_osm_station_id.add(osm_station_id)
+                            note_osm_stop_area_id.add(osm_stop_area_id)
                         for osm_entrance_id in osm_entrance_ids:
                             if osm_entrance_id not in note_osm_entrance_id:
                                 osm_entrance_info = osm_entrance.get(osm_entrance_id, {})
@@ -256,7 +256,7 @@ if __name__ == '__main__':
                                     '',
                                     '',
                                     2,
-                                    osm_station_id,
+                                    osm_stop_area_id,
                                     '',
                                     '',
                                     '',

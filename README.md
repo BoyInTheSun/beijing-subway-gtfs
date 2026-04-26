@@ -35,11 +35,11 @@ flowchart LR
         o1_2("车站区域群 relation['type'='public_transport']['public_transport'='stop_area_group']")
         o2_1("线路 relation['route'='subway'] relation['route'='tram'] relation['route'='light_rail'] relation['route'='monorail']")
         o2_2("车站区域 relation['type'='public_transport']['public_transport'='stop_area']")
-        o3_1("轨道 path['electrified'='rail']")
+        o3_1("轨道 way['electrified'='rail']")
         o4_1("节点 node")
         o3_2("停车点 node['type'='public_transport']['public_transport'='stop_position']")
-        o3_3("月台 path['public_transport'='station']['railway'='platform']")
-        o3_4("车站 node['public_transport'='station']['railway'='station']")
+        o3_3("月台 way['public_transport'='station']['railway'='platform']")
+        o3_4("车站 node['public_transport'='station']['railway'='station'] way['public_transport'='station']['railway'='station']")
         o3_5("出入口 node['railway'='subway_entrance']")
     end
     subgraph gtfs1 [GTFS stops]
@@ -108,14 +108,14 @@ flowchart LR
 
 ### [stops.txt](gtfs/stops.txt)
 
-由`spiders/ruubypay/spider.py`和`spiders/amap/get_stops.py`爬取，`tools/compute_stops.py`生成。
+由`spiders/ruubypay/spider.py`和`spiders/osm/export.py`爬取，`tools/compute_stops.py`生成。
 
 + 对于 `location_type=1`，即车站，是区分线路的**逻辑车站**，即对于换乘站，不同线路享有不同的编号，并在[transfers.txt](#transferstxt)中明确换乘关系。 `stop_id` 为 OSM 中标签包含 `{"public_transport": "stop_area", "type": "public_transport"}` 的关系的ID； `stop_lat` 和 `stop_lon` 来自该关系的成员中标签包含 `{"railway": "station"}` 的节点。此举的考虑是后者可能多线路共用、而前者是对线路唯一。
-+ `stop_code` 当且仅当 `location_type=1` 时存在，为6位10进制的车站编号，遵循 **BJJT/0049-2020 《城市轨道交通视频监视系统应用实施指南》**第14.4节，是真实使用的内部编码。其中前2位为线路编号，区别于[routes](#routestxt)的`route_id`，第3为固定为`0`，第4至6位为车站代码，可参考[这篇文章](https://zhuanlan.zhihu.com/p/1898395707053966382)。
 + 对于 `location_type=0` ，即站台，是列车的**停车点**。 `stop_id` 为 OSM 中标签包含 `{"public_transport": "stop_area", "type": "public_transport"}` 的关系的ID。其中换乘站不同线路对应不同的`stop_id`。特别的，*6号线海淀五路居站*（未使用）、*5号线宋家庄站*、*13号线西直门站*为西班牙式月台，本数据集仅包含停车孤岛而不包含上下车站台信息，参考[西班牙式月台](https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E5%BC%8F%E6%9C%88%E5%8F%B0#%E5%8C%97%E4%BA%AC%E5%9C%B0%E9%93%81)。
 + 对于 `location_type=2` ，即**出口**。其 `stop_id` 为 OSM 中标签包含 `{"railway": "subway_entrance"}` 的节点的ID。
++ `stop_code` 是6位10进制的真实使用的**车站内部编号**，遵循 **BJJT/0049-2020 《城市轨道交通视频监视系统应用实施指南》**第14.4节。其中前2位为线路编号，区别于[routes](#routestxt)的`route_id`，第3为固定为`0`，第4至6位为车站代码，可参考[这篇文章](https://zhuanlan.zhihu.com/p/1898395707053966382)。
 
-### [trips.txt](gtfs/trips.txt)
+### ~~[trips.txt](gtfs/trips.txt)~~
 
 + `direction_id`，**方向标识**。**GB 50157-2013 《地铁设计规范》**中第3.3.1节规定，右侧行车，南北线路由南向北为上行；东西线路由西向东为上行；环形线路外侧（逆时针）为上行。定义上行为 `0`，下行为 `1`
 + `trip_id`，虚拟车次，由本项目定义。规则为第1-2位为 `route_id`，第3位为**服务日标志位**，第4位为`direction_id`，第5位为**行程标志位**，第6-7位为**行程编号**。其中**服务日标志位**和 `service_id` 对应，对于一般线路为 `wd => 0, we => 1`，对于*首都机场线*为 `mon_thu+sat_sun => 0, fri => 1`，对于*大兴机场线*为 `mon_thu+sat => 0, fri => 1, sun => 2`；**行程标志位**对于全程车（含完整环线）取 `0`、区间车（含不完整环线）取 `1`、大站快车取 `2`、需待避慢车取 `3`、跨线车取 `4`、支线车（暂无）取 `5`；当前项完全一致时，**行程标编号**由 `01` 起按照发车时间先后递增。
@@ -123,8 +123,7 @@ flowchart LR
 + `trip_headsign`，列车头显，由本项目定义。对于全程车为`始发站-终点站`。对于区间车为`始发站-终点站(区间车)`。对于大站快车为`始发站-终点站(大站快车)`或`始发站-终点站(xx专列)`。对于需待避慢车为`始发站-终点站(慢车)`。对于某线跨线车为`始发站-终点站(跨线车)`，在`跨线站`即*郭公庄*变更 `trip_id`。对于环线车为`始发站-终点站(x环 余n圈)`，在`循环站`变更 `trip_id`。其中`始发站`和`终点站`可能为**循环站**；`余n圈`指剩余的**循环站**至**循环站**的完整环线的数量，不含当前圈；当车次在终点站后回库时，将`余0圈`替换为`回库`。
 + 特别地，*首都机场线*按照单程线路处理，即只存在 `direction_id=0`，其 `trip_headsign` 固定为`北新桥-3号航站楼-2号航站楼-北新桥`。
 
-### [transfers.txt](gtfs/transfers.txt)
-
+### ~~[transfers.txt](gtfs/transfers.txt)~~
 
 ## 附录
 
