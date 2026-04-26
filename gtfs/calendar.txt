@@ -1,0 +1,7 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+wd,1,1,1,1,1,0,0,19700101,21000101
+we,0,0,0,0,0,1,1,19700101,21000101
+mon_thu+sat,1,1,1,1,0,1,0,19700101,21000101
+fri,0,0,0,0,1,0,0,19700101,21000101
+sun,0,0,0,0,0,0,1,19700101,21000101
+mon_thu+sat_sun,1,1,1,1,0,1,1,19700101,21000101

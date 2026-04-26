@@ -1,0 +1,3088 @@
+{
+  "r7713148": {
+    "type": "r",
+    "tags": {
+      "name": "天津南站",
+      "name:en": "Tianjin South Railway Station",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7713144,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 6796974,
+        "role": ""
+      }
+    ]
+  },
+  "r7713149": {
+    "type": "r",
+    "tags": {
+      "name": "直沽",
+      "name:en": "Zhigu",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7713145,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7713146,
+        "role": ""
+      }
+    ]
+  },
+  "r7713150": {
+    "type": "r",
+    "tags": {
+      "name": "张兴庄",
+      "name:en": "Zhangxingzhuang",
+      "public_transport": "stop_area_group",
+      "type": "public_transport",
+      "wikidata": "Q43639",
+      "wikipedia": "zh:张兴庄站"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7713142,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7713143,
+        "role": ""
+      }
+    ]
+  },
+  "r7713184": {
+    "type": "r",
+    "tags": {
+      "name": "新百广场",
+      "name:en": "Xinbaiguangchang",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7713182,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7713183,
+        "role": ""
+      }
+    ]
+  },
+  "r7842111": {
+    "type": "r",
+    "tags": {
+      "name": "雍和宫",
+      "name:en": "Yonghegong Lama Temple",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1650485,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7842107,
+        "role": ""
+      }
+    ]
+  },
+  "r7842112": {
+    "type": "r",
+    "tags": {
+      "name": "南锣鼓巷",
+      "name:en": "Nanluoguxiang",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7842109,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 4010361,
+        "role": ""
+      }
+    ]
+  },
+  "r7842113": {
+    "type": "r",
+    "tags": {
+      "name": "鼓楼大街",
+      "name:en": "Guloudajie",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1650487,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7842110,
+        "role": ""
+      }
+    ]
+  },
+  "r7842114": {
+    "type": "r",
+    "tags": {
+      "name": "东四",
+      "name:en": "Dongsi",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7842108,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1659645,
+        "role": ""
+      }
+    ]
+  },
+  "r7914213": {
+    "type": "r",
+    "tags": {
+      "name": "西站",
+      "name:en": "Xizhan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport",
+      "wikidata": "Q8044829",
+      "wikipedia": "zh:西站站"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7914207,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7914208,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 19352952,
+        "role": ""
+      }
+    ]
+  },
+  "r7914214": {
+    "type": "r",
+    "tags": {
+      "name": "西南角",
+      "name:en": "Xi'nanjiao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7914211,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7914212,
+        "role": ""
+      }
+    ]
+  },
+  "r7914215": {
+    "type": "r",
+    "tags": {
+      "name": "长虹公园",
+      "name:en": "Changhong­gongyuan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7914210,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7914209,
+        "role": ""
+      }
+    ]
+  },
+  "r7951000": {
+    "type": "r",
+    "tags": {
+      "name": "宋家庄",
+      "name:en": "Songjiazhuang",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7950998,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7950999,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1660377,
+        "role": ""
+      }
+    ]
+  },
+  "r8047884": {
+    "type": "r",
+    "tags": {
+      "name": "芍药居",
+      "name:en": "Shaoyaoju (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1606930,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047883,
+        "role": ""
+      }
+    ]
+  },
+  "r8047891": {
+    "type": "r",
+    "tags": {
+      "name": "复兴门",
+      "name:en": "Fuxingmen (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1599345,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047890,
+        "role": ""
+      }
+    ]
+  },
+  "r8047904": {
+    "type": "r",
+    "tags": {
+      "name": "军事博物馆",
+      "name:en": "Military Museum (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8047903,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1598956,
+        "role": ""
+      }
+    ]
+  },
+  "r8047907": {
+    "type": "r",
+    "tags": {
+      "name": "宣武门",
+      "name:en": "Xuanwumen (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8047906,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1599347,
+        "role": ""
+      }
+    ]
+  },
+  "r8047909": {
+    "type": "r",
+    "tags": {
+      "name": "公主坟",
+      "name:en": "Gongzhufen (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1598955,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047908,
+        "role": ""
+      }
+    ]
+  },
+  "r8047912": {
+    "type": "r",
+    "tags": {
+      "name": "崇文门",
+      "name:en": "Chongwenmen (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8047911,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1601338,
+        "role": ""
+      }
+    ]
+  },
+  "r8047914": {
+    "type": "r",
+    "tags": {
+      "name": "东单",
+      "name:en": "Dongdan (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1603640,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047913,
+        "role": ""
+      }
+    ]
+  },
+  "r8047922": {
+    "type": "r",
+    "tags": {
+      "name": "东直门",
+      "name:en": "Dongzhimen",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1607096,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047920,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047921,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9947422,
+        "role": ""
+      }
+    ]
+  },
+  "r8047927": {
+    "type": "r",
+    "tags": {
+      "name": "呼家楼",
+      "name:en": "Hujialou (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1652810,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047926,
+        "role": ""
+      }
+    ]
+  },
+  "r8047929": {
+    "type": "r",
+    "tags": {
+      "name": "立水桥",
+      "name:en": "Lishuiqiao (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8047928,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1606935,
+        "role": ""
+      }
+    ]
+  },
+  "r8047960": {
+    "type": "r",
+    "tags": {
+      "name": "西直门/北京北",
+      "name:en": "Xizhimen/Beijingbei (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1650226,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047957,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047958,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047959,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 11763917,
+        "role": ""
+      }
+    ]
+  },
+  "r8047967": {
+    "type": "r",
+    "tags": {
+      "name": "建国门",
+      "name:en": "Jianguomen (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1603641,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047966,
+        "role": ""
+      }
+    ]
+  },
+  "r8047969": {
+    "type": "r",
+    "tags": {
+      "name": "平安里",
+      "name:en": "Ping'anli (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8047968,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13625337,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2068918,
+        "role": ""
+      }
+    ]
+  },
+  "r8047971": {
+    "type": "r",
+    "tags": {
+      "name": "车公庄",
+      "name:en": "Chegongzhuang (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8047970,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1650228,
+        "role": ""
+      }
+    ]
+  },
+  "r8047973": {
+    "type": "r",
+    "tags": {
+      "name": "角门西",
+      "name:en": "Jiaomen West (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8047972,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2082883,
+        "role": ""
+      }
+    ]
+  },
+  "r8047986": {
+    "type": "r",
+    "tags": {
+      "name": "慈寿寺",
+      "name:en": "Cishousi (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2672957,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8047985,
+        "role": ""
+      }
+    ]
+  },
+  "r8048004": {
+    "type": "r",
+    "tags": {
+      "name": "国贸",
+      "name:en": "Guomao (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8048003,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1604001,
+        "role": ""
+      }
+    ]
+  },
+  "r8048007": {
+    "type": "r",
+    "tags": {
+      "name": "望京西",
+      "name:en": "Wangjing West (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1606933,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8048006,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 20161011,
+        "role": ""
+      }
+    ]
+  },
+  "r8048010": {
+    "type": "r",
+    "tags": {
+      "name": "朝阳门",
+      "name:en": "Chaoyangmen (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1650484,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8048009,
+        "role": ""
+      }
+    ]
+  },
+  "r8048027": {
+    "type": "r",
+    "tags": {
+      "name": "霍营",
+      "name:en": "Huoying (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1606934,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8048026,
+        "role": ""
+      }
+    ]
+  },
+  "r8048030": {
+    "type": "r",
+    "tags": {
+      "name": "西单",
+      "name:en": "Xidan (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1602850,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8048029,
+        "role": ""
+      }
+    ]
+  },
+  "r8048032": {
+    "type": "r",
+    "tags": {
+      "name": "白石桥南",
+      "name:en": "Baishiqiao South (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2674574,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8048031,
+        "role": ""
+      }
+    ]
+  },
+  "r8060605": {
+    "type": "r",
+    "tags": {
+      "name": "北土城",
+      "name:en": "Beitucheng (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1651733,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8060604,
+        "role": ""
+      }
+    ]
+  },
+  "r8060608": {
+    "type": "r",
+    "tags": {
+      "name": "三元桥",
+      "name:en": "Sanyuanqiao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8060607,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1652783,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18444053,
+        "role": ""
+      }
+    ]
+  },
+  "r8060615": {
+    "type": "r",
+    "tags": {
+      "name": "蒲黄榆",
+      "name:en": "Puhuangyu (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8060614,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1660379,
+        "role": ""
+      }
+    ]
+  },
+  "r8060971": {
+    "type": "r",
+    "tags": {
+      "name": "惠新西街南口",
+      "name:en": "Huixinxijie Nankou (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8060970,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1651803,
+        "role": ""
+      }
+    ]
+  },
+  "r8062951": {
+    "type": "r",
+    "tags": {
+      "name": "大望路",
+      "name:en": "Dawanglu (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1604003,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8062950,
+        "role": ""
+      }
+    ]
+  },
+  "r8065805": {
+    "type": "r",
+    "tags": {
+      "name": "大屯路东",
+      "name:en": "Datunlu East (Stop Aera Group)",
+      "name:es": "Datunlu East (Grupo de área de paradas)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1659506,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2519811,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8065806,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2258025,
+        "role": ""
+      }
+    ]
+  },
+  "r8076025": {
+    "type": "r",
+    "tags": {
+      "name": "西局",
+      "name:en": "Xiju (Stop Area Group)",
+      "public_transport": "stop_area_group",
+      "public_transport:version": "2",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2690920,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8076024,
+        "role": ""
+      }
+    ]
+  },
+  "r8301270": {
+    "type": "r",
+    "tags": {
+      "name": "海淀五路居",
+      "name:en": "Haidan Wuluju",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2684741,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2684755,
+        "role": ""
+      }
+    ]
+  },
+  "r8302903": {
+    "type": "r",
+    "tags": {
+      "name": "巴沟",
+      "name:en": "Bagou",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1651584,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8302897,
+        "role": ""
+      }
+    ]
+  },
+  "r8308526": {
+    "type": "r",
+    "tags": {
+      "name": "苹果园",
+      "name:en": "Pingguoyuan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1596679,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9736311,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13726145,
+        "role": ""
+      },
+      {
+        "type": "n",
+        "ref": 10285742566,
+        "role": ""
+      },
+      {
+        "type": "n",
+        "ref": 10285742567,
+        "role": ""
+      },
+      {
+        "type": "n",
+        "ref": 10285742569,
+        "role": ""
+      }
+    ]
+  },
+  "r8337118": {
+    "type": "r",
+    "tags": {
+      "name": "七里庄",
+      "name:en": "Qilizhuang",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2674582,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8337114,
+        "role": ""
+      }
+    ]
+  },
+  "r8337119": {
+    "type": "r",
+    "tags": {
+      "name": "望京",
+      "name:en": "Wangjing",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2688947,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8337117,
+        "role": ""
+      }
+    ]
+  },
+  "r8378089": {
+    "type": "r",
+    "tags": {
+      "name": "奥林匹克公园",
+      "name:en": "Olympic Green",
+      "name:zh": "奥林匹克公园",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8378088,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1653640,
+        "role": ""
+      }
+    ]
+  },
+  "r8378142": {
+    "type": "r",
+    "tags": {
+      "name": "十里河",
+      "name:en": "Shilihe",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13625146,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8378141,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2703470,
+        "role": ""
+      }
+    ]
+  },
+  "r8378143": {
+    "type": "r",
+    "tags": {
+      "name": "双井",
+      "name:en": "Shuangjing",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8378140,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1652809,
+        "role": ""
+      }
+    ]
+  },
+  "r8469060": {
+    "type": "r",
+    "tags": {
+      "name": "阎村东",
+      "name:en": "Yancun East",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8469054,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8469059,
+        "role": ""
+      }
+    ]
+  },
+  "r8513070": {
+    "type": "r",
+    "tags": {
+      "name": "营口道",
+      "name:en": "Yingkoudao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8513067,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8489965,
+        "role": ""
+      }
+    ]
+  },
+  "r8513071": {
+    "type": "r",
+    "tags": {
+      "name": "顺驰桥",
+      "name:en": "Jingjianglu",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8513069,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8489962,
+        "role": ""
+      }
+    ]
+  },
+  "r9581119": {
+    "type": "r",
+    "tags": {
+      "name": "金钟河大街",
+      "name:en": "Jinzhonghedadao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9581117,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9581118,
+        "role": ""
+      }
+    ]
+  },
+  "r9588300": {
+    "type": "r",
+    "tags": {
+      "name": "红旗南路",
+      "name:en": "Hongqinanlu",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9588299,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8489967,
+        "role": ""
+      }
+    ]
+  },
+  "r9604984": {
+    "type": "r",
+    "tags": {
+      "name": "下瓦房",
+      "name:en": "Xiawafang",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9604980,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9604981,
+        "role": ""
+      }
+    ]
+  },
+  "r9605005": {
+    "type": "r",
+    "tags": {
+      "name": "泰达",
+      "name:en": "TEDA",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9605003,
+        "role": ""
+      }
+    ]
+  },
+  "r9612871": {
+    "type": "r",
+    "tags": {
+      "name": "天津站",
+      "name:en": "Tianjinzhan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9612870,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8489963,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9612869,
+        "role": ""
+      }
+    ]
+  },
+  "r9620285": {
+    "type": "r",
+    "tags": {
+      "name": "金安桥",
+      "name:en": "Jinanqiao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13623661,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9620283,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9620284,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2684691,
+        "role": ""
+      }
+    ]
+  },
+  "r9736308": {
+    "type": "r",
+    "tags": {
+      "name": "西苑",
+      "name:en": "Xiyuan",
+      "name:es": "Xiyuan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9736307,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9736309,
+        "role": ""
+      }
+    ]
+  },
+  "r9736314": {
+    "type": "r",
+    "tags": {
+      "name": "大红门",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2707910,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9736313,
+        "role": ""
+      }
+    ]
+  },
+  "r9736315": {
+    "type": "r",
+    "tags": {
+      "name": "永定门外",
+      "name:en": "Yongdingmenwai",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 4627473,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9608209,
+        "role": ""
+      }
+    ]
+  },
+  "r9736319": {
+    "type": "r",
+    "tags": {
+      "name": "珠市口",
+      "name:en": "Zhushikou",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 4630725,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1722439,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 15665232,
+        "role": ""
+      }
+    ]
+  },
+  "r9736322": {
+    "type": "r",
+    "tags": {
+      "name": "菜市口",
+      "name:en": "Caishikou",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9736321,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2081311,
+        "role": ""
+      }
+    ]
+  },
+  "r9736327": {
+    "type": "r",
+    "tags": {
+      "name": "九龙山",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9736326,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 4623398,
+        "role": ""
+      }
+    ]
+  },
+  "r9746511": {
+    "type": "r",
+    "tags": {
+      "name": "天津宾馆",
+      "name:en": "Tianjinbinguan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9746510,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9746509,
+        "role": ""
+      }
+    ]
+  },
+  "r9746514": {
+    "type": "r",
+    "tags": {
+      "name": "文化中心",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9746513,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 17638149,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18497504,
+        "role": ""
+      }
+    ]
+  },
+  "r9746536": {
+    "type": "r",
+    "tags": {
+      "name": "北京南站",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2081493,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9746535,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 11487559,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 11487558,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 11487560,
+        "role": ""
+      }
+    ]
+  },
+  "r9775165": {
+    "type": "r",
+    "tags": {
+      "name": "北京西站",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9775164,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2674575,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9803586,
+        "role": ""
+      }
+    ]
+  },
+  "r9775199": {
+    "type": "r",
+    "tags": {
+      "name": "金台路",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9775198,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 4622761,
+        "role": ""
+      }
+    ]
+  },
+  "r9775201": {
+    "type": "r",
+    "tags": {
+      "name": "知春路",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8047898,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1606034,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9775200,
+        "role": ""
+      }
+    ]
+  },
+  "r9803543": {
+    "type": "r",
+    "tags": {
+      "name": "磁器口",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1660378,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9803542,
+        "role": ""
+      }
+    ]
+  },
+  "r9803550": {
+    "type": "r",
+    "tags": {
+      "name": "海淀黄庄",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9803548,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1651694,
+        "role": ""
+      }
+    ]
+  },
+  "r9803574": {
+    "type": "r",
+    "tags": {
+      "name": "西二旗",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1606929,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9803572,
+        "role": ""
+      }
+    ]
+  },
+  "r9803578": {
+    "type": "r",
+    "tags": {
+      "name": "朱辛庄",
+      "name:en": "Zhuxinzhuang",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9803577,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2111074,
+        "role": ""
+      }
+    ]
+  },
+  "r9803617": {
+    "type": "r",
+    "tags": {
+      "name": "郭公庄",
+      "name:en": "Guogongzhuang",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9803616,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2207110,
+        "role": ""
+      }
+    ]
+  },
+  "r9941667": {
+    "type": "r",
+    "tags": {
+      "name": "安定门",
+      "name:en": "Andingmen",
+      "name:zh": "安定门",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1650486,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 9941666,
+        "role": ""
+      }
+    ]
+  },
+  "r10136987": {
+    "type": "r",
+    "tags": {
+      "name": "草桥",
+      "name:en": "Caoqiao",
+      "name:zh": "草桥",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13625344,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 10136986,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2709369,
+        "role": ""
+      }
+    ]
+  },
+  "r10655628": {
+    "type": "r",
+    "tags": {
+      "name": "花庄",
+      "name:en": "Huazhuang",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 10558280,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 10558281,
+        "role": ""
+      }
+    ]
+  },
+  "r11484513": {
+    "type": "r",
+    "tags": {
+      "name": "饶乐府",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8469055,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2442847,
+        "role": ""
+      }
+    ]
+  },
+  "r11484519": {
+    "type": "r",
+    "tags": {
+      "name": "马各庄",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 11484518,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2442860,
+        "role": ""
+      }
+    ]
+  },
+  "r11487633": {
+    "type": "r",
+    "tags": {
+      "name": "北京站",
+      "name:de": "Peking Bahnhof",
+      "name:en": "Beijing Railway Station",
+      "name:zh": "北京站",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1601341,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 11487632,
+        "role": ""
+      }
+    ]
+  },
+  "r11582709": {
+    "type": "r",
+    "tags": {
+      "name": "北国商城",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 11582708,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 11582707,
+        "role": ""
+      }
+    ]
+  },
+  "r11582712": {
+    "type": "r",
+    "tags": {
+      "name": "石家庄站",
+      "name:en": "Shijiazhuang",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 11582711,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8376403,
+        "role": ""
+      }
+    ]
+  },
+  "r12316339": {
+    "type": "r",
+    "tags": {
+      "name": "首经贸",
+      "name:en": "Shoujingmao",
+      "name:zh": "首经贸",
+      "name:zh-Latn-pinyin": "Shŏujīngmào",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 12316338,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2709371,
+        "role": ""
+      }
+    ]
+  },
+  "r12316475": {
+    "type": "r",
+    "tags": {
+      "name": "国家图书馆",
+      "name:en": "National Library",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 12316468,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1667222,
+        "role": ""
+      }
+    ]
+  },
+  "r12943917": {
+    "type": "r",
+    "tags": {
+      "name": "成林道",
+      "name:en": "Chenglindao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 12943915,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 12943916,
+        "role": ""
+      }
+    ]
+  },
+  "r13298579": {
+    "type": "r",
+    "tags": {
+      "name": "环球度假区",
+      "name:en": "Universal Resort",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13298578,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13131768,
+        "role": ""
+      }
+    ]
+  },
+  "r13623459": {
+    "type": "r",
+    "tags": {
+      "name": "王府井",
+      "name:en": "Wangfujing",
+      "name:zh": "王府井",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1603635,
+        "role": ""
+      }
+    ]
+  },
+  "r13625201": {
+    "type": "r",
+    "tags": {
+      "name": "次渠",
+      "name:zh": "次渠",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13625196,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1655453,
+        "role": ""
+      }
+    ]
+  },
+  "r13625202": {
+    "type": "r",
+    "tags": {
+      "name": "北新桥",
+      "name:zh": "北新桥",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13625197,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1659646,
+        "role": ""
+      }
+    ]
+  },
+  "r13625328": {
+    "type": "r",
+    "tags": {
+      "name": "新宫",
+      "name:en": "Xingong",
+      "name:zh": "新宫",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13625327,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2083778,
+        "role": ""
+      }
+    ]
+  },
+  "r13625330": {
+    "type": "r",
+    "tags": {
+      "name": "牡丹园",
+      "name:zh": "牡丹园",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13625324,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1651711,
+        "role": ""
+      }
+    ]
+  },
+  "r13625336": {
+    "type": "r",
+    "tags": {
+      "name": "积水潭",
+      "name:zh": "积水潭",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13625334,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1650229,
+        "role": ""
+      }
+    ]
+  },
+  "r13625346": {
+    "type": "r",
+    "tags": {
+      "name": "景风门",
+      "name:zh": "景风门",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13625345,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 4627472,
+        "role": ""
+      }
+    ]
+  },
+  "r13625581": {
+    "type": "r",
+    "tags": {
+      "name": "丽泽商务区",
+      "note": "14，16，DXA，FS，LJ",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 4626932,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18583222,
+        "role": ""
+      }
+    ]
+  },
+  "r14904262": {
+    "type": "r",
+    "tags": {
+      "name": "屿东城",
+      "name:en": "Yudongcheng",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 14904261,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 14903764,
+        "role": ""
+      }
+    ]
+  },
+  "r14904266": {
+    "type": "r",
+    "tags": {
+      "name": "沙柳南路",
+      "name:en": "Shaliunanlu",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13652028,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 14903768,
+        "role": ""
+      }
+    ]
+  },
+  "r14904271": {
+    "type": "r",
+    "tags": {
+      "name": "财经大学",
+      "name:en": "Caijingdaxue",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 14904270,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 14903774,
+        "role": ""
+      }
+    ]
+  },
+  "r14904275": {
+    "type": "r",
+    "tags": {
+      "name": "昌凌路",
+      "name:en": "Changlinglu",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 14904274,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 14903784,
+        "role": ""
+      }
+    ]
+  },
+  "r15070932": {
+    "type": "r",
+    "tags": {
+      "name": "丰台南路",
+      "name:en": "Fengtai Nanlu",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 15070931,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2674578,
+        "role": ""
+      }
+    ]
+  },
+  "r15070937": {
+    "type": "r",
+    "tags": {
+      "name": "丰台站",
+      "name:en": "Fengtai Railway Station",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 15070936,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 4010537,
+        "role": ""
+      }
+    ]
+  },
+  "r15070939": {
+    "type": "r",
+    "tags": {
+      "name": "东管头南",
+      "name:en": "Dongguantou Nan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 15070938,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 12115718,
+        "role": ""
+      }
+    ]
+  },
+  "r15070942": {
+    "type": "r",
+    "tags": {
+      "name": "达官营",
+      "name:en": "Daguanying",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 15070941,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 4630728,
+        "role": ""
+      }
+    ]
+  },
+  "r15085407": {
+    "type": "r",
+    "tags": {
+      "name": "木樨地",
+      "name:en": "Muxidi",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 15070943,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1598954,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13519795,
+        "role": ""
+      }
+    ]
+  },
+  "r15440387": {
+    "type": "r",
+    "tags": {
+      "name": "西土城",
+      "name:en": "Xitucheng",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 15440382,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1651697,
+        "role": ""
+      }
+    ]
+  },
+  "r15440388": {
+    "type": "r",
+    "tags": {
+      "name": "六道口",
+      "name:en": "Liudaokou",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 4640443,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 15440384,
+        "role": ""
+      }
+    ]
+  },
+  "r16546686": {
+    "type": "r",
+    "tags": {
+      "name": "二里沟",
+      "name:en": "Erligou",
+      "name:zh": "二里沟",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 16546684,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 16546685,
+        "role": ""
+      }
+    ]
+  },
+  "r16914089": {
+    "type": "r",
+    "tags": {
+      "name": "环宇道",
+      "name:en": "Huanyudao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 16914083,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 14903772,
+        "role": ""
+      }
+    ]
+  },
+  "r16919451": {
+    "type": "r",
+    "tags": {
+      "name": "太阳宫",
+      "name:en": "Taiyanggong",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1651800,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 16919450,
+        "role": ""
+      }
+    ]
+  },
+  "r16926315": {
+    "type": "r",
+    "tags": {
+      "name": "苏州街",
+      "name:en": "Suzhou Street",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1651696,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 16926314,
+        "role": ""
+      }
+    ]
+  },
+  "r17563147": {
+    "type": "r",
+    "tags": {
+      "name": "东南角",
+      "name:en": "Dongnanjiao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 17563146,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13652021,
+        "role": ""
+      }
+    ]
+  },
+  "r18412907": {
+    "type": "r",
+    "tags": {
+      "name": "东四十条",
+      "name:en": "Dongsi Shitiao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18412906,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1650483,
+        "role": ""
+      }
+    ]
+  },
+  "r18412908": {
+    "type": "r",
+    "tags": {
+      "name": "工人体育场",
+      "name:en": "Workers' Stadium",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18412905,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 16926588,
+        "role": ""
+      }
+    ]
+  },
+  "r18412930": {
+    "type": "r",
+    "tags": {
+      "name": "东坝北",
+      "name:en": "Dongbabei",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18412929,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18412904,
+        "role": ""
+      }
+    ]
+  },
+  "r18420553": {
+    "type": "r",
+    "tags": {
+      "name": "团结湖",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18420552,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1652811,
+        "role": ""
+      }
+    ]
+  },
+  "r18443076": {
+    "type": "r",
+    "tags": {
+      "name": "朝阳公园",
+      "name:en": "Chaoyang Park",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18443075,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 4627511,
+        "role": ""
+      }
+    ]
+  },
+  "r18443079": {
+    "type": "r",
+    "tags": {
+      "name": "长春桥",
+      "name:en": "Changchunqiao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 3079662,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18443078,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2672955,
+        "role": ""
+      }
+    ]
+  },
+  "r18465609": {
+    "type": "r",
+    "tags": {
+      "name": "蓟门桥",
+      "name:en": "Jimenqiao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18465608,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18444144,
+        "role": ""
+      }
+    ]
+  },
+  "r18476814": {
+    "type": "r",
+    "tags": {
+      "name": "光熙门",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18444149,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1606927,
+        "role": ""
+      }
+    ]
+  },
+  "r18476815": {
+    "type": "r",
+    "tags": {
+      "name": "安华桥",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2676663,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18444146,
+        "role": ""
+      }
+    ]
+  },
+  "r18476816": {
+    "type": "r",
+    "tags": {
+      "name": "北太平庄",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18444145,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13625335,
+        "role": ""
+      }
+    ]
+  },
+  "r18476817": {
+    "type": "r",
+    "tags": {
+      "name": "和平西桥",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1659647,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18444148,
+        "role": ""
+      }
+    ]
+  },
+  "r18498470": {
+    "type": "r",
+    "tags": {
+      "name": "吴家窑",
+      "name:en": "Wujiayao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18498469,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 17903772,
+        "role": ""
+      }
+    ]
+  },
+  "r18499946": {
+    "type": "r",
+    "tags": {
+      "name": "医大二院",
+      "name:en": "Yidaeryuan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18499945,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18497505,
+        "role": ""
+      }
+    ]
+  },
+  "r19443148": {
+    "type": "r",
+    "tags": {
+      "name": "鼓楼",
+      "name:en": "Gulou",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 19443147,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18576106,
+        "role": ""
+      }
+    ]
+  },
+  "r19443153": {
+    "type": "r",
+    "tags": {
+      "name": "海光寺",
+      "name:en": "Haiguangsi",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 19443152,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7871565,
+        "role": ""
+      }
+    ]
+  },
+  "r19447987": {
+    "type": "r",
+    "tags": {
+      "name": "天塔",
+      "name:en": "Tianta",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 19447986,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 17903936,
+        "role": ""
+      }
+    ]
+  },
+  "r19448222": {
+    "type": "r",
+    "tags": {
+      "name": "肿瘤医院",
+      "name:en": "Zhongliuiyuan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 19448220,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 19448221,
+        "role": ""
+      }
+    ]
+  },
+  "r19507363": {
+    "type": "r",
+    "tags": {
+      "name": "丽江道",
+      "name:en": "Lijiangdao",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 19442781,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 19882571,
+        "role": ""
+      }
+    ]
+  },
+  "r19650831": {
+    "type": "r",
+    "tags": {
+      "name": "南开大学八里台",
+      "name:en": "Nankaidaxuebalitai",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 19448231,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18497501,
+        "role": ""
+      }
+    ]
+  },
+  "r19652165": {
+    "type": "r",
+    "tags": {
+      "name": "北站",
+      "name:en": "Beizhan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8513068,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8489960,
+        "role": ""
+      }
+    ]
+  },
+  "r19652664": {
+    "type": "r",
+    "tags": {
+      "name": "和平路",
+      "name:en": "Hepinglu",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13652023,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 17904295,
+        "role": ""
+      }
+    ]
+  },
+  "r19873960": {
+    "type": "r",
+    "tags": {
+      "name": "渌水道",
+      "name:en": "Lushui Avenue",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 19873241,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 16924050,
+        "role": ""
+      }
+    ]
+  },
+  "r20015689": {
+    "type": "r",
+    "tags": {
+      "name": "马连洼",
+      "name:en": "Malianwa",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9641023,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 12316472,
+        "role": ""
+      }
+    ]
+  },
+  "r20015690": {
+    "type": "r",
+    "tags": {
+      "name": "回龙观东大街",
+      "name:en": "Huilongguan Dongdajie",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 20015686,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2637823,
+        "role": ""
+      }
+    ]
+  },
+  "r20015691": {
+    "type": "r",
+    "tags": {
+      "name": "天通苑",
+      "name:en": "Tiantongyuan",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 20015687,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1659507,
+        "role": ""
+      }
+    ]
+  },
+  "r20015692": {
+    "type": "r",
+    "tags": {
+      "name": "天通苑东",
+      "name:en": "Tiantongyuandong",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 20015688,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 16919439,
+        "role": ""
+      }
+    ]
+  },
+  "r20022669": {
+    "type": "r",
+    "tags": {
+      "name": "东大桥",
+      "name:en": "Dongdaqiao",
+      "name:zh": "东大桥",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 6159577,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 20022668,
+        "role": ""
+      }
+    ]
+  },
+  "r20022671": {
+    "type": "r",
+    "tags": {
+      "name": "永安里",
+      "name:en": "Yonganli",
+      "name:zh": "永安里",
+      "public_transport": "stop_area_group",
+      "type": "public_transport"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1604004,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 20022670,
+        "role": ""
+      }
+    ]
+  }
+}

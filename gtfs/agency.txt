@@ -1,0 +1,10 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email,cemv_support
+subway_1,北京市地铁运营有限公司运营一分公司,https://www.bjsubway.com/index.html,Asia/Shanghai,zh-CN,010-96165,,,1
+subway_2,北京市地铁运营有限公司运营二分公司,https://www.bjsubway.com/index.html,Asia/Shanghai,zh-CN,010-96165,,,1
+subway_3,北京市地铁运营有限公司运营三分公司,https://www.bjsubway.com/index.html,Asia/Shanghai,zh-CN,010-96165,,,1
+subway_4,北京市地铁运营有限公司运营四分公司,https://www.bjsubway.com/index.html,Asia/Shanghai,zh-CN,010-96165,,,1
+cm,北京京城地铁有限公司,https://www.bjsubway.com/support/xxgkzn/2021-11-11/129480.html,Asia/Shanghai,zh-CN,010-96165,,,1
+mtr,北京京港地铁有限公司,https://www.mtr.bj.cn/,Asia/Shanghai,zh-CN,010-96123,,,1
+moa,北京市轨道交通运营管理有限公司,https://www.bjmoa.cn/,Asia/Shanghai,zh-CN,010-96123,,,1
+tram,北京公交有轨电车有限公司,https://www.bjbus.com/home/index.php,Asia/Shanghai,zh-CN,010-96166,,,1
+tram_yz,北京亦庄公交有轨电车有限责任公司,https://www.bjbus.com/home/index.php,Asia/Shanghai,zh-CN,010-96166,,,1

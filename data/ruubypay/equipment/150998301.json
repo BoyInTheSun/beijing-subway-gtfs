@@ -1,0 +1,1 @@
+{"device": [{"restroom": "站厅,靠近出站闸机", "accessibleRestroom": "站厅,靠近出站闸机", "nursingRoom": "无", "escalator": "无", "elevator": "无", "aed": "站厅,靠近开往西直门方向14门（付费区）", "liftPlatform": "无", "climbingCar": "站厅,靠近开往西直门方向14门（付费区）", "emergencyDevice": "无", "barrierfreeAccess": "A口坡道", "deviceLocation": "150998301"}], "exits": [{"name": "A口", "isClosure": 0, "nearBy": ["小营西路"]}]}

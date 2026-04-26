@@ -1,0 +1,1649 @@
+{
+  "r414866": {
+    "type": "r",
+    "tags": {
+      "colour": "#00529B",
+      "name": "Subway Line 2",
+      "name:de": "U-Bahn-Linie 2",
+      "name:en": "Beijing Subway Line 2",
+      "name:fr": "ligne 2",
+      "name:zh": "北京地铁2号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "2",
+      "roundtrip": "yes",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q680973",
+      "wikipedia": "en:Line 2, Beijing Subway"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1667237,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1667236,
+        "role": ""
+      }
+    ]
+  },
+  "r415571": {
+    "type": "r",
+    "tags": {
+      "colour": "#A12830",
+      "name": "Subway Line 1",
+      "name:en": "Beijing Subway Line 1",
+      "name:fr": "Ligne 1",
+      "name:zh": "北京地铁1号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:ko": "베이징 지하철",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "1",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q748987",
+      "wikipedia": "en:Line 1, Beijing Subway"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1667140,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1667139,
+        "role": ""
+      }
+    ]
+  },
+  "r417951": {
+    "type": "r",
+    "tags": {
+      "colour": "#F9E700",
+      "name": "Subway Line 13",
+      "name:en": "Beijing Subway Line 13",
+      "name:fr": "Ligne 13",
+      "name:zh": "北京地铁13号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "13",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q847744",
+      "wikipedia": "en:Line 13, Beijing Subway"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1667375,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1667376,
+        "role": ""
+      }
+    ]
+  },
+  "r420835": {
+    "type": "r",
+    "tags": {
+      "colour": "#178ABB",
+      "name": "Subway Line 10",
+      "name:en": "Beijing Subway Line 10",
+      "name:fr": "Ligne 10",
+      "name:zh": "北京地铁10号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "10",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q847886",
+      "wikipedia": "en:Line 10 (Beijing Subway)"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1721075,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1721076,
+        "role": ""
+      }
+    ]
+  },
+  "r420836": {
+    "type": "r",
+    "tags": {
+      "colour": "#ae005f",
+      "name": "Subway Line 5",
+      "name:en": "Beijing Subway Line 5",
+      "name:fr": "Ligne 5",
+      "name:zh": "北京地铁5号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "5",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q647340",
+      "wikipedia": "en:Line 5 (Beijing Subway)"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1721065,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1721064,
+        "role": ""
+      },
+      {
+        "type": "n",
+        "ref": 12277159901,
+        "role": ""
+      }
+    ]
+  },
+  "r420837": {
+    "type": "r",
+    "tags": {
+      "colour": "#00997A",
+      "name": "Subway Line 8",
+      "name:en": "Beijing Subway Line 8",
+      "name:fr": "Ligne 8",
+      "name:zh": "北京地铁8号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "8",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q847771",
+      "wikipedia": "en:Line 8 (Beijing Subway)"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1721067,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1721068,
+        "role": ""
+      }
+    ]
+  },
+  "r420838": {
+    "type": "r",
+    "tags": {
+      "colour": "#008994",
+      "name": "北京地铁4号线/大兴线",
+      "name:de": "U-Bahn-Linie 4/DX",
+      "name:en": "Beijing Subway Line 4/DX",
+      "name:fr": "Ligne 4",
+      "name:zh": "北京地铁4号线/大兴线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京京港地铁有限公司",
+      "operator:en": "Beijing Mass Transit Railway Operation Corporation Limited",
+      "operator:wikidata": "Q10902028",
+      "ref": "4",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q304264"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2082917,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2082918,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2083779,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2083780,
+        "role": ""
+      }
+    ]
+  },
+  "r1350576": {
+    "type": "r",
+    "tags": {
+      "colour": "#D61572",
+      "name": "Subway Yizhuang Line",
+      "name:en": "Beijing Subway Yizhuang Line",
+      "name:fr": "Ligne Yizhuang",
+      "name:zh": "北京地铁亦庄线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "24;L2",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q5944471",
+      "wikipedia": "en:Yizhuang Line, Beijing Subway"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2201486,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2201487,
+        "role": ""
+      }
+    ]
+  },
+  "r1350622": {
+    "type": "r",
+    "tags": {
+      "colour": "#D47DAA",
+      "name": "Subway Changping Line",
+      "name:en": "Beijing Subway Changping Line",
+      "name:zh": "北京地铁昌平线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "27",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q5066697"
+    },
+    "members": [
+      {
+        "type": "w",
+        "ref": 1431968152,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2111424,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2111425,
+        "role": ""
+      },
+      {
+        "type": "n",
+        "ref": 13161970243,
+        "role": ""
+      }
+    ]
+  },
+  "r1350671": {
+    "type": "r",
+    "tags": {
+      "colour": "#D85F26",
+      "name": "Subway Fangshan Line",
+      "name:en": "Beijing Subway Fangshan Line",
+      "name:zh": "北京地铁房山线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "25N",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q5433860",
+      "wikipedia": "en:Fangshan Line, Beijing Subway"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1721085,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1721084,
+        "role": ""
+      }
+    ]
+  },
+  "r1354082": {
+    "type": "r",
+    "tags": {
+      "colour": "#9B91B1",
+      "length": "28.1km",
+      "name": "北京地铁首都机场线",
+      "name:en": "Capital Airport Express",
+      "name:fr": "Capital Airport Express",
+      "name:zh": "北京地铁首都机场线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "operator": "北京京城地铁有限公司",
+      "ownership": "北京市基础设施投资有限公司",
+      "ref": "L1",
+      "rolling_stock": "QKZ5",
+      "route_master": "subway",
+      "type": "route_master",
+      "wheelchair": "yes",
+      "wikidata": "Q847767",
+      "wikipedia": "en:Airport Express, Beijing Subway"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2062998,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2062999,
+        "role": ""
+      }
+    ]
+  },
+  "r1722444": {
+    "type": "r",
+    "tags": {
+      "name": "前门大街有轨电车",
+      "name_en": "Beijing Qianmen Streetcar",
+      "route_master": "tram",
+      "type": "route_master",
+      "wikidata": "Q55718267",
+      "wikipedia": "zh-yue:前門有軌電車"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1722440,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1722441,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1722442,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1722443,
+        "role": ""
+      }
+    ]
+  },
+  "r2674584": {
+    "type": "r",
+    "tags": {
+      "colour": "#87D300",
+      "name": "Subway Line 9",
+      "name:en": "Beijing Subway Line 9",
+      "name:fr": "Ligne 9",
+      "name:zh": "北京地铁9号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "9",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q5929508"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 2674583,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2063278,
+        "role": ""
+      }
+    ]
+  },
+  "r2684711": {
+    "type": "r",
+    "tags": {
+      "colour": "#007E84",
+      "name": "Subway Daxing Line",
+      "name:en": "Beijing Subway Daxing Line",
+      "name:fr": "ligne Daxing",
+      "name:zh": "北京地铁大兴线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "opening_hours": "Mo-Su 5:00-23:00",
+      "operator": "北京京港地铁有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "4S",
+      "route_master": "subway",
+      "start_date": "2010-12-30",
+      "type": "route_master",
+      "wikidata": "Q5242742",
+      "wikipedia": "en:Daxing line"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1355484,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2684710,
+        "role": ""
+      }
+    ]
+  },
+  "r2688949": {
+    "type": "r",
+    "tags": {
+      "colour": "#653279",
+      "name": "Subway Line 15",
+      "name:en": "Beijing Subway Line 15",
+      "name:fr": "Ligne 15",
+      "name:zh": "北京地铁15号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "15",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q734917",
+      "wikipedia": "en:Line 15 (Beijing Subway)"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1350597,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 2688948,
+        "role": ""
+      }
+    ]
+  },
+  "r4624900": {
+    "type": "r",
+    "tags": {
+      "colour": "#FFC66E",
+      "name": "Subway Line 7",
+      "name:en": "Beijing Subway Line 7",
+      "name:fr": "ligne 7",
+      "name:zh": "北京地铁7号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "7",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q6553149",
+      "wikipedia": "en:Line 7 (Beijing Subway)"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 4623396,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 4623397,
+        "role": ""
+      }
+    ]
+  },
+  "r4624915": {
+    "type": "r",
+    "tags": {
+      "colour": "#D4A7A1",
+      "name": "Subway Line 14",
+      "name:en": "Beijing Subway Line 14",
+      "name:fr": "Ligne 14",
+      "name:zh": "北京地铁14号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京京港地铁有限公司",
+      "operator:wikidata": "Q10902028",
+      "ref": "14",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q6553070",
+      "wikipedia": "en:Line 14 (Beijing Subway)"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 4613036,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 4611276,
+        "role": ""
+      }
+    ]
+  },
+  "r4625142": {
+    "type": "r",
+    "tags": {
+      "colour": "#BB8900",
+      "name": "Subway Line 6",
+      "name:en": "Beijing Subway Line 6",
+      "name:fr": "Ligne 6",
+      "name:zh": "北京地铁6号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "6",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q6553138",
+      "wikipedia": "en:Line 6, Beijing Subway"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 4625140,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 4625141,
+        "role": ""
+      }
+    ]
+  },
+  "r7841839": {
+    "type": "r",
+    "tags": {
+      "colour": "#e53e30",
+      "name": "石家庄地铁1号线",
+      "name:en": "Shijiazhuang Metro Line 1",
+      "name:zh-Hant": "石家莊地鐵1號線",
+      "network": "石家庄地铁",
+      "network:en": "Shijiazhuang Metro",
+      "network:wikidata": "Q12267378",
+      "network:wikipedia": "zh:石家庄地铁",
+      "network:zh": "石家庄地铁",
+      "operator": "石家庄市轨道交通集团有限责任公司",
+      "ref": "1",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q30326155",
+      "wikipedia": "zh:石家庄地铁1号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7841838,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 6898664,
+        "role": ""
+      }
+    ]
+  },
+  "r7841854": {
+    "type": "r",
+    "tags": {
+      "colour": "#00a1e0",
+      "name": "石家庄地铁3号线",
+      "name:en": "Shijiazhuang Metro Line 3",
+      "name:zh-Hant": "石家莊地鐵3號線",
+      "network": "石家庄地铁",
+      "network:en": "Shijiazhuang Metro",
+      "network:wikidata": "Q12267378",
+      "network:wikipedia": "zh:石家庄地铁",
+      "network:zh": "石家庄地铁",
+      "operator": "石家庄市轨道交通集团有限责任公司",
+      "ref": "3",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q30326157",
+      "wikipedia": "zh:石家庄地铁3号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 7841853,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 6898662,
+        "role": ""
+      }
+    ]
+  },
+  "r8008813": {
+    "type": "r",
+    "tags": {
+      "colour": "#a65a2a",
+      "description": "Low-speed maglev rapid transit line",
+      "name": "北京地铁S1线",
+      "name:en": "Beijing Subway Line S1",
+      "name:fr": "ligne S1",
+      "name:zh": "北京地铁S1线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "operator": "北京市地铁运营有限公司",
+      "operator:en": "Beijing Mass Transit Railway Operation Corporation Limited",
+      "operator:wikidata": "Q4881162",
+      "ref": "S1;26",
+      "route_master": "monorail",
+      "type": "route_master",
+      "wikidata": "Q4881158",
+      "wikipedia": "zh:北京地铁S1线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8008814,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8008812,
+        "role": ""
+      }
+    ]
+  },
+  "r8303696": {
+    "type": "r",
+    "tags": {
+      "alt_name:en": "Western Suburban Line",
+      "colour": "#e1261c",
+      "name": "北京地铁西郊线",
+      "name:en": "Beijing Subway Xijiao Line",
+      "name:fr": "ligne Xijiao",
+      "name:zh": "北京地铁西郊线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京公交有轨电车有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "西郊",
+      "ref:en": "Xijiao",
+      "route_master": "light_rail",
+      "type": "route_master",
+      "wikidata": "Q3400451",
+      "wikipedia": "en:Xijiao line"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8303695,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8008876,
+        "role": ""
+      }
+    ]
+  },
+  "r8324250": {
+    "type": "r",
+    "tags": {
+      "colour": "#6DA843",
+      "interval": "8",
+      "name": "Subway Line 16",
+      "name:en": "Beijing Subway Line 16",
+      "name:fr": "Ligne 16",
+      "name:zh": "北京地铁16号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "operator": "北京京港地铁有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "16",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q6553080",
+      "wikipedia": "en:Line 16 (Beijing Subway)"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8324249,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7800400,
+        "role": ""
+      }
+    ]
+  },
+  "r8469061": {
+    "type": "r",
+    "tags": {
+      "colour": "#D85F26",
+      "name": "Subway Yanfang Line",
+      "name:en": "Beijing Subway Yanfang Line",
+      "name:zh": "北京地铁燕房线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "25S",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q8048350",
+      "wikipedia": "en:Yanfang line"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8469053,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 12798054,
+        "role": ""
+      }
+    ]
+  },
+  "r8478970": {
+    "type": "r",
+    "tags": {
+      "colour": "#063A91",
+      "name": "天津地铁9号线",
+      "name:en": "Tianjin Metro Line 9",
+      "name:zh": "天津地铁9号线",
+      "name:zh-Hant": "天津地鐵9號線",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:wikipedia": "zh:天津地铁",
+      "network:zh": "天津地铁",
+      "operator": "天津致远轨道交通运营有限公司",
+      "ref": "9",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q3125123",
+      "wikipedia": "zh:天津地铁9号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 444015,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 444014,
+        "role": ""
+      }
+    ]
+  },
+  "r8489969": {
+    "type": "r",
+    "tags": {
+      "colour": "#128BBE",
+      "name": "天津地铁3号线",
+      "name:en": "Tianjin Metro Line 3",
+      "name:zh": "天津地铁3号线",
+      "name:zh-Hant": "天津地鐵3號線",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:wikipedia": "zh:天津地铁",
+      "network:zh": "天津地铁",
+      "operator": "天津三号线轨道交通运营有限公司",
+      "ref": "3",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q6553117",
+      "wikipedia": "zh:天津地铁3号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8489968,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 5456346,
+        "role": ""
+      }
+    ]
+  },
+  "r8489970": {
+    "type": "r",
+    "tags": {
+      "colour": "#ECE114",
+      "name": "天津地铁2号线",
+      "name:en": "Tianjin Metro Line 2",
+      "name:zh": "天津地铁2号线",
+      "name:zh-Hant": "天津地鐵2號線",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:wikipedia": "zh:天津地铁",
+      "network:zh": "天津地铁",
+      "operator": "神铁二号线（天津）轨道交通运营有限公司",
+      "ref": "2",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q6553104",
+      "wikipedia": "zh:天津地铁2号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 5456345,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 8489961,
+        "role": ""
+      }
+    ]
+  },
+  "r8489971": {
+    "type": "r",
+    "tags": {
+      "colour": "#BD0016",
+      "name": "天津地铁1号线",
+      "name:en": "Tianjin Metro Line 1",
+      "name:zh": "天津地铁1号线",
+      "name:zh-Hant": "天津地鐵1號線",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:wikipedia": "zh:天津地铁",
+      "network:zh": "天津地铁",
+      "operator": "天津一号线轨道交通运营有限公司",
+      "ref": "1",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q6126171",
+      "wikipedia": "zh:天津地铁1号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8489964,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 5456344,
+        "role": ""
+      }
+    ]
+  },
+  "r8490135": {
+    "type": "r",
+    "tags": {
+      "colour": "#9F216F",
+      "name": "天津地铁6号线",
+      "name:en": "Tianjin Metro Line 6",
+      "name:zh-Hant": "天津地鐵6號線",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:wikipedia": "zh:天津地铁",
+      "network:zh": "天津地铁",
+      "operator": "天津致诚轨道交通运营有限公司",
+      "ref": "6",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q10940001",
+      "wikipedia": "zh:天津地铁6号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 8490134,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7001837,
+        "role": ""
+      }
+    ]
+  },
+  "r9604983": {
+    "type": "r",
+    "tags": {
+      "colour": "#FB6F14",
+      "name": "天津地铁5号线",
+      "name:en": "Tianjin Metro Line 5",
+      "name:zh": "天津地铁5号线",
+      "name:zh-Hant": "天津地鐵5號線",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:wikipedia": "zh:天津地铁",
+      "network:zh": "天津地铁",
+      "operator": "天津致远轨道交通运营有限公司",
+      "ref": "5",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q10940000",
+      "wikipedia": "zh:天津地铁5号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 9604979,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 7001836,
+        "role": ""
+      }
+    ]
+  },
+  "r10136967": {
+    "type": "r",
+    "tags": {
+      "alt_name": "北京大兴国际机场线",
+      "colour": "#3F48CC",
+      "name": "北京地铁大兴机场线",
+      "name:en": "Daxing Airport Express",
+      "name:fr": "Daxing Airport Express",
+      "name:zh": "北京地铁大兴机场线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "operator": "北京市轨道交通运营管理有限公司",
+      "operator:en": "Beijing Metro Operation Administration (BJMOA) Corp., Ltd.",
+      "operator:zh": "北京市轨道交通运营管理有限公司",
+      "ref": "Daxing Airport",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q19840478",
+      "wikipedia": "zh:北京地铁大兴机场线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 10136948,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 10136949,
+        "role": ""
+      }
+    ]
+  },
+  "r11582700": {
+    "type": "r",
+    "tags": {
+      "colour": "#fec30a",
+      "from": "嘉华路",
+      "name": "石家庄地铁2号线",
+      "name:en": "Shijiazhuang Metro Line 2",
+      "name:zh": "石家庄地铁2号线",
+      "name:zh-Hant": "石家莊地鐵2號線",
+      "network": "石家庄地铁",
+      "network:en": "Shijiazhuang Metro",
+      "network:wikidata": "Q12267378",
+      "network:wikipedia": "zh:石家庄地铁",
+      "network:zh": "石家庄地铁",
+      "operator": "石家庄市轨道交通集团有限责任公司",
+      "ref": "2",
+      "route_master": "subway",
+      "to": "柳辛庄",
+      "type": "route_master",
+      "wikidata": "Q85776743"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 11582699,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 6898663,
+        "role": ""
+      }
+    ]
+  },
+  "r12567203": {
+    "type": "r",
+    "tags": {
+      "colour": "#D22630",
+      "interval": "00:20",
+      "name": "亦庄新城现代有轨电车T1线",
+      "name:fr": "ligne tram T1",
+      "opening_hours": "Mo-Su 06:00-22:00",
+      "operator": "北京亦庄公交有轨电车有限责任公司",
+      "ref": "T1",
+      "route_master": "tram",
+      "type": "route_master"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 12567201,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 12567202,
+        "role": ""
+      }
+    ]
+  },
+  "r13298577": {
+    "type": "r",
+    "tags": {
+      "colour": "#A12830",
+      "name": "北京地铁八通线",
+      "name:fr": "Ligne Batong",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:en": "Beijing Mass Transit Railway Operation Corporation Limited",
+      "operator:wikidata": "Q4881162",
+      "ref": "1E",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q1039452"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 1667272,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 1667273,
+        "role": ""
+      }
+    ]
+  },
+  "r13623628": {
+    "type": "r",
+    "tags": {
+      "colour": "#ED796A",
+      "name": "北京地铁11号线",
+      "name:en": "Beijing Subway Line 11",
+      "name:fr": "ligne 11",
+      "name:zh": "北京地铁11号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市地铁运营有限公司",
+      "operator:wikidata": "Q4881162",
+      "ref": "11",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q6553057"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13623625,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13623627,
+        "role": ""
+      }
+    ]
+  },
+  "r13625147": {
+    "type": "r",
+    "tags": {
+      "colour": "#00A9A9",
+      "name": "北京地铁17号线",
+      "name:en": "Beijing Subway Line 17",
+      "name:fr": "Ligne 17",
+      "name:zh": "北京地铁17号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京京港地铁有限公司",
+      "operator:en": "Beijing MTR Corporation Limited",
+      "operator:wikidata": "Q10902028",
+      "ref": "17",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q24834015"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13625144,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13625142,
+        "role": ""
+      }
+    ]
+  },
+  "r13625329": {
+    "type": "r",
+    "tags": {
+      "colour": "#D6AAC1",
+      "name": "北京地铁19号线",
+      "name:en": "Beijing Subway Line 19",
+      "name:fr": "ligne 19",
+      "name:zh": "北京地铁19号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "old_operator": "北京市地下铁道总公司",
+      "old_operator:en": "Beijing Municipal Subway Company",
+      "operator": "北京市轨道交通运营管理有限公司",
+      "operator:en": "Beijing Metro Operation Administration (BJMOA) Corp., Ltd.",
+      "operator:wikidata": "Q10902028",
+      "ref": "19",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q6553202"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13625325,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13625326,
+        "role": ""
+      }
+    ]
+  },
+  "r13652091": {
+    "type": "r",
+    "tags": {
+      "colour": "#1c7736",
+      "name": "天津地铁4号线",
+      "name:zh-Hant": "天津地鐵4號線",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:wikipedia": "zh:天津地铁",
+      "network:zh": "天津地铁",
+      "operator": "北段：中铁（天津）轨道交通投资建设有限公司、南段：天津致新轨道交通运营有限公司",
+      "ref": "4",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q10940016",
+      "wikipedia": "zh:天津地铁4号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 19361078,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 19361076,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13652090,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13652089,
+        "role": ""
+      }
+    ]
+  },
+  "r13711701": {
+    "type": "r",
+    "tags": {
+      "colour": "#602E7C",
+      "name": "天津地铁8号线",
+      "name:en": "Tianjin Metro Line 8",
+      "name:zh-Hant": "天津地鐵8號線",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:wikipedia": "zh:天津地铁",
+      "network:zh": "天津地铁",
+      "operator": "中铁建（天津）轨道交通投资发展有限公司",
+      "ref": "8",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q10940012",
+      "wikipedia": "zh:天津地铁8号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 13711700,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 13711699,
+        "role": ""
+      }
+    ]
+  },
+  "r14903908": {
+    "type": "r",
+    "tags": {
+      "colour": "#B9CF09",
+      "name": "天津地铁10号线",
+      "name:en": "Subway Line 10",
+      "name:zh-Hant": "天津地鐵10號線",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:zh": "天津地铁",
+      "operator": "天津致诚轨道交通运营有限公司",
+      "ref": "10",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q10940015",
+      "wikipedia": "zh:天津地铁10号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 14903907,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 14903886,
+        "role": ""
+      }
+    ]
+  },
+  "r18099359": {
+    "type": "r",
+    "tags": {
+      "alt_name": "市域铁路津静线",
+      "colour": "#F8B5C4",
+      "name": "天津地铁津静线",
+      "name:en": "Tianjin Metro Jinjing Line",
+      "name:zh": "天津地铁津静线",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:wikipedia": "zh:天津地铁",
+      "network:zh": "天津地铁",
+      "operator": "天津致远轨道交通运营有限公司",
+      "ref": "津静线",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q109344086",
+      "wikipedia": "zh:天津地铁津静线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18099354,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 17868751,
+        "role": ""
+      }
+    ]
+  },
+  "r18420551": {
+    "type": "r",
+    "tags": {
+      "colour": "#D90627",
+      "name": "北京地铁3号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "operator": "北京市地铁运营有限公司运营四分公司",
+      "ref": "3",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q6553113",
+      "wikipedia": "zh:北京地铁3号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18420550,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18420549,
+        "role": ""
+      }
+    ]
+  },
+  "r18444658": {
+    "type": "r",
+    "tags": {
+      "colour": "#9B5A1A",
+      "name": "北京地铁12号线",
+      "name:en": "Subway Line 12",
+      "name:fr": "Ligne 12",
+      "name:zh": "北京地铁12号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "operator": "北京京城地铁有限公司",
+      "ownership": "北京市基础设施投资有限公司",
+      "ref": "12",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q26262009",
+      "wikipedia": "zh:北京地铁12号线",
+      "wikipedia:en": "en:Line 12 (Beijing Subway)"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 18441518,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 18441519,
+        "role": ""
+      }
+    ]
+  },
+  "r18497640": {
+    "type": "r",
+    "tags": {
+      "colour": "#004998",
+      "name": "天津地铁11号线",
+      "name:en": "Tianjin Metro Line 11",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:zh": "天津地铁",
+      "operator": "中交（天津）轨道交通运营管理有限公司十一号线分公司",
+      "public_transport:version": "2",
+      "ref": "11",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q10940013",
+      "wikipedia": "zh:天津地铁11号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 16914088,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 16914085,
+        "role": ""
+      }
+    ]
+  },
+  "r19442546": {
+    "type": "r",
+    "tags": {
+      "colour": "#b17833",
+      "name": "天津地铁7号线",
+      "name:en": "Tianjin Metro Line 7",
+      "name:zh": "天津地铁7号线",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:zh": "天津地铁",
+      "operator": "中建（天津）轨道交通投资发展有限公司",
+      "ref": "7",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q10940011",
+      "wikipedia": "zh:天津地铁7号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 19442544,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 19442545,
+        "role": ""
+      }
+    ]
+  },
+  "r19966316": {
+    "type": "r",
+    "tags": {
+      "colour": "#a57fb2",
+      "name": "天津地铁Z4线",
+      "name:en": "Tianjin Metro Line Z4",
+      "name:zh": "天津地铁Z4线",
+      "name:zh-Hant": "天津地鐵Z4線",
+      "network": "天津地铁",
+      "network:en": "Tianjin Metro",
+      "network:wikidata": "Q515817",
+      "network:wikipedia": "zh:天津地铁",
+      "network:zh": "天津地铁",
+      "operator": "天津滨海快速交通发展有限公司",
+      "ref": "Z4",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q10940010",
+      "wikipedia": "zh:天津地铁Z4线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 19966314,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 19966315,
+        "role": ""
+      }
+    ]
+  },
+  "r20010806": {
+    "type": "r",
+    "tags": {
+      "colour": "#5554a2",
+      "name": "北京地铁18号线",
+      "name:en": "Beijing Subway Line 18",
+      "name:zh": "北京地铁18号线",
+      "network": "北京地铁",
+      "network:en": "Beijing Subway",
+      "network:wikidata": "Q235319",
+      "network:wikipedia": "zh:北京地铁",
+      "network:zh": "北京地铁",
+      "ref": "18",
+      "route_master": "subway",
+      "type": "route_master",
+      "wikidata": "Q135581001",
+      "wikipedia": "zh:北京地铁18号线"
+    },
+    "members": [
+      {
+        "type": "r",
+        "ref": 20010805,
+        "role": ""
+      },
+      {
+        "type": "r",
+        "ref": 20010820,
+        "role": ""
+      }
+    ]
+  }
+}
