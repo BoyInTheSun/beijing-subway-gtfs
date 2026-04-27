@@ -64,6 +64,11 @@ if __name__ == '__main__':
         osm_entrance = json.load(f)
     with open(os.path.join(DATA_DIR, 'osm', 'node.json'),encoding='utf-8') as f:
         osm_node = json.load(f)
+    amap_stations = {}
+    for filename in os.listdir(os.path.join(DATA_DIR, 'amap', 'stations')):
+        if filename.endswith('.json'):
+            with open(os.path.join(DATA_DIR, 'amap', 'stations', filename),encoding='utf-8') as f:
+                amap_stations[filename[:-5]] = json.load(f)
     
     arc_stop_area = {}
     for stop_area_id in osm_stop_area:
@@ -92,6 +97,7 @@ if __name__ == '__main__':
                 
     os.makedirs(os.path.join(DATA_DIR, 'interim'), exist_ok=True)
     with open(os.path.join(GTFS_DIR, 'stops.txt'), 'w', encoding='utf-8', newline='') as f_stops,\
+         open(os.path.join(GTFS_DIR, 'stop_areas.txt'), 'w', encoding='utf-8', newline='') as f_stop_areas,\
          open(os.path.join(DATA_DIR, 'interim', 'relations.csv'), 'w', encoding='utf-8', newline='') as f_relations:
         writer_stops = csv.writer(f_stops)
         writer_stops.writerow([
@@ -112,7 +118,13 @@ if __name__ == '__main__':
             'platform_code',
             'stop_access'
         ])
-    
+
+        writer_stop_areas = csv.writer(f_stop_areas)
+        writer_stop_areas.writerow([
+            'area_id',
+            'stop_id'
+        ])
+        
         writer_relations = csv.writer(f_relations)
         writer_relations.writerow([
             'osm_stop_position_id',
@@ -151,6 +163,11 @@ if __name__ == '__main__':
                         ruubypay_station_id = ruubypay_station_name2station_id.get(osm_station_name, None)
                         ruubypay_device_location = ruubypay_station_id2device_location.get(ruubypay_station_id, None)
                         ruubypay_fare_location = ruubypay_station_id2fare_location.get(ruubypay_station_id, None)
+                        
+                        amap_station_info = amap_stations.get(str(ruubypay_station_id), [{}])[0]
+                        amap_station_id = amap_station_info.get('id', '')
+                        adcode = amap_station_info.get('adcode', '')
+                        
                         writer_relations.writerow([
                             osm_stop_position_id,
                             'osm_stop_area_group_id',
@@ -162,9 +179,9 @@ if __name__ == '__main__':
                             ruubypay_fare_location,
                             osm_station_name,
                             tool.device_location2station_id(ruubypay_device_location),
-                            'amap_id',
-                            'amap_name',
-                            'adcode',
+                            amap_station_id,
+                            amap_station_info.get('name', ''),
+                            adcode,
                         ])
                         
                         if osm_stop_position_id not in note_osm_stop_position_id:
@@ -196,6 +213,10 @@ if __name__ == '__main__':
                                 '',
                                 '',
                                 ''
+                            ])
+                            writer_stop_areas.writerow([
+                                adcode,
+                                osm_stop_position_id
                             ])
                             note_osm_stop_position_id.add(osm_stop_position_id)
                         if osm_stop_area_id and osm_stop_area_id not in note_osm_stop_area_id:
@@ -229,6 +250,10 @@ if __name__ == '__main__':
                                 '',
                                 ''
                             ])
+                            writer_stop_areas.writerow([
+                                adcode,
+                                osm_stop_position_id
+                            ])
                             note_osm_stop_area_id.add(osm_stop_area_id)
                         for osm_entrance_id in osm_entrance_ids:
                             if osm_entrance_id not in note_osm_entrance_id:
@@ -247,9 +272,9 @@ if __name__ == '__main__':
                                     entrance_code = ''
                                 writer_stops.writerow([
                                     osm_entrance_id, 
-                                    tool.device_location2station_id(ruubypay_device_location),
-                                    f'{osm_station_name}{entrance_code}出口',
-                                    f'{osm_station_name}{entrance_code}出口',
+                                    '',
+                                    f'{osm_station_name} {entrance_code}出口',
+                                    f'{osm_station_name} {entrance_code}出口',
                                     '',
                                     entrance_info.get('lat', ''),
                                     entrance_info.get('lon', ''),
@@ -262,5 +287,9 @@ if __name__ == '__main__':
                                     '',
                                     '',
                                     ''
+                                ])
+                                writer_stop_areas.writerow([
+                                    adcode,
+                                    osm_stop_position_id
                                 ])
                                 note_osm_entrance_id.add(osm_entrance_id)

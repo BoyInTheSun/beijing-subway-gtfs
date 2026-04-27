@@ -115,9 +115,11 @@ flowchart LR
 + 对于 `location_type=2` ，即**出口**。其 `stop_id` 为 OSM 中标签包含 `{"railway": "subway_entrance"}` 的节点的ID。
 + `stop_code` 是6位10进制的真实使用的**车站内部编号**，遵循 **BJJT/0049-2020 《城市轨道交通视频监视系统应用实施指南》** 第14.4节。其中前2位为线路编号，区别于[routes](#routestxt)的`route_id`，第3为固定为`0`，第4至6位为车站代码，可参考[这篇文章](https://zhuanlan.zhihu.com/p/1898395707053966382)。
 
-### ~~[stop_areas.txt](gtfs/stop_areas.txt)~~
+### [stop_areas.txt](gtfs/stop_areas.txt)
 
 由`tools/compute_stops.py`生成。
+
+### ~~[transfers.txt](gtfs/transfers.txt)~~
 
 ### ~~[trips.txt](gtfs/trips.txt)~~
 
@@ -127,7 +129,7 @@ flowchart LR
 + `trip_headsign`，**列车头显**，由本项目定义。对于全程车为`始发站-终点站`。对于区间车为`始发站-终点站(区间车)`。对于大站快车为`始发站-终点站(大站快车)`或`始发站-终点站(xx专列)`。对于需待避慢车为`始发站-终点站(慢车)`。对于某线跨线车为`始发站-终点站(跨线车)`，在`跨线站`即*郭公庄*变更 `trip_id`。对于环线车为`始发站-终点站(x环 余n圈)`，在`循环站`变更 `trip_id`。其中`始发站`和`终点站`可能为**循环站**；`余n圈`指剩余的**循环站**至**循环站**的完整环线的数量，不含当前圈；当车次在终点站后回库时，将`余0圈`替换为`回库`。
 + 特别地，*首都机场线*按照单程线路处理，即只存在 `direction_id=0`，其 `trip_headsign` 固定为`北新桥-3号航站楼-2号航站楼-北新桥`。
 
-### ~~[transfers.txt](gtfs/transfers.txt)~~
+### ~~[stop_times.txt](gtfs/stop_times.txt)~~
 
 ## 附录
 
