@@ -2,14 +2,12 @@ import json
 import os
 import csv
 import re
-
 from tqdm import tqdm
+
 from tools import tool
-import pandas as pd
 
 DATA_DIR = 'data'
 GTFS_DIR = 'gtfs'
-
 
 ROUTE_ID2OSM_ROUTE_ID = {  # route_id: [上行, 下行]
     '01': [1667140, 1667139],
@@ -42,13 +40,14 @@ ROUTE_ID2OSM_ROUTE_ID = {  # route_id: [上行, 下行]
     'yz': [2201487, 2201486],
 }
 
+
 if __name__ == '__main__':
     
     acclocation = tool.acclocation
     map_h5 = tool.map_h5
-    ruubypay_station_name2station_id = {each['cn_name']: each['id'] for each in map_h5['stations_data']}
-    ruubypay_station_id2device_location = {each['station_id']: each['device_location'] for each in acclocation}
-    ruubypay_station_id2fare_location = {each['station_id']: each['fare_location'] for each in acclocation}
+    ruubypay_station_name2station_id = tool.ruubypay_station_name2station_id
+    ruubypay_line_id_station_id2device_location = tool.ruubypay_line_id_station_id2device_location
+    ruubypay_device_location2fare_location = tool.ruubypay_device_location2fare_location
     
     with open(os.path.join(DATA_DIR, 'osm', 'route_master.json'),encoding='utf-8') as f:
         osm_route_master = json.load(f)
@@ -161,8 +160,8 @@ if __name__ == '__main__':
                             osm_station_name = osm_station_name.replace('首都机场', '')
                             
                         ruubypay_station_id = ruubypay_station_name2station_id.get(osm_station_name, None)
-                        ruubypay_device_location = ruubypay_station_id2device_location.get(ruubypay_station_id, None)
-                        ruubypay_fare_location = ruubypay_station_id2fare_location.get(ruubypay_station_id, None)
+                        ruubypay_device_location = ruubypay_line_id_station_id2device_location.get((route_id, ruubypay_station_id), None)
+                        ruubypay_fare_location = ruubypay_device_location2fare_location.get(ruubypay_device_location, None)
                         
                         amap_station_info = amap_stations.get(str(ruubypay_station_id), [{}])[0]
                         amap_station_id = amap_station_info.get('id', '')
@@ -178,7 +177,7 @@ if __name__ == '__main__':
                             ruubypay_device_location,
                             ruubypay_fare_location,
                             osm_station_name,
-                            tool.device_location2station_id(ruubypay_device_location),
+                            tool.device_location2internal_station_id(ruubypay_device_location),
                             amap_station_id,
                             amap_station_info.get('name', ''),
                             adcode,
@@ -198,7 +197,7 @@ if __name__ == '__main__':
                                 stop_position_name = osm_station_name + {0: '(上行)', 1: '(下行)'}[direction_id]
                             writer_stops.writerow([
                                 osm_stop_position_id, 
-                                tool.device_location2station_id(ruubypay_device_location),
+                                tool.device_location2internal_station_id(ruubypay_device_location),
                                 stop_position_name,
                                 osm_station_name,
                                 '',
@@ -234,7 +233,7 @@ if __name__ == '__main__':
                                 center_lon, center_lat = None, None
                             writer_stops.writerow([
                                 osm_stop_area_id, 
-                                tool.device_location2station_id(ruubypay_device_location),
+                                tool.device_location2internal_station_id(ruubypay_device_location),
                                 osm_station_name,
                                 osm_station_name,
                                 '',
