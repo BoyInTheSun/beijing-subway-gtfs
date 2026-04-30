@@ -160,7 +160,7 @@ if __name__ == '__main__':
                             osm_station_name = osm_station_name.replace('首都机场', '')
                             
                         ruubypay_station_id = ruubypay_station_name2station_id.get(osm_station_name, None)
-                        ruubypay_device_location = ruubypay_line_id_station_id2device_location.get((route_id, ruubypay_station_id), None)
+                        ruubypay_device_location = ruubypay_route_id_station_id2device_location.get((route_id, ruubypay_station_id), None)
                         ruubypay_fare_location = ruubypay_device_location2fare_location.get(ruubypay_device_location, None)
                         
                         amap_station_info = amap_stations.get(str(ruubypay_station_id), [{}])[0]

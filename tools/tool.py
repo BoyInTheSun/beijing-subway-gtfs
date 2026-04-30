@@ -47,6 +47,7 @@ pis_station_select = json.load(open(os.path.join(DATA_DIR, 'ruubypay', 'pisStati
 ruubypay_station_name2station_id = {each['cn_name']: each['id'] for each in map_h5['stations_data']}
 ruubypay_device_location2fare_location = {}
 ruubypay_device_location2line_id = {}
+ruubypay_route_id_station_id2device_location = {}
 ruubypay_line_id_station_id2device_location = {}
 for each in acclocation:
     line_id = each['line_id']
@@ -56,8 +57,20 @@ for each in acclocation:
     device_location = each['device_location']
     ruubypay_device_location2fare_location[device_location] = each['fare_location']
     ruubypay_device_location2line_id[device_location] = line_id
-    ruubypay_line_id_station_id2device_location[(RUUBYPAY_LINE_ID2ROUTE_ID[line_id], station_id)] = device_location
+    ruubypay_route_id_station_id2device_location[(RUUBYPAY_LINE_ID2ROUTE_ID[line_id], station_id)] = device_location
+    ruubypay_line_id_station_id2device_location[(line_id, station_id)] = device_location
     
+line_station = {}
+for line_item in excess_fare_ticket_station_select:
+    for show_stations_item in line_item['show_stations']:
+        line_id = show_stations_item['line']
+        line_station[line_id] = []
+        route_id = RUUBYPAY_LINE_ID2ROUTE_ID.get(int(line_id))
+        for station_item in show_stations_item['stations']:
+            station_id = station_item['id']
+            device_location = ruubypay_line_id_station_id2device_location.get((line_id, station_id))
+            line_station[line_id].append(device_location)
+
 
 def device_location2internal_station_id(device_location):
     if not device_location: return None
